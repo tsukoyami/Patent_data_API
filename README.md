@@ -1,12 +1,13 @@
 Overview
-
 This project provides a RESTful API built with Django to analyze a patent dataset. It allows users to retrieve summary statistics and query the dataset based on various parameters.
+
 Prerequisites
     Python 3.8 or higher
     Django 5.0 or higher
     Django REST framework
     Pandas
     PostgreSQL 16
+
 You can install the necessary packages using pip:  pip install django djangorestframework pandas
 
 
