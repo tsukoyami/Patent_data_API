@@ -44,6 +44,8 @@ You can install the necessary packages using pip:  pip install django djangorest
 
 **API Endpoints**
 Summary Endpoint
+
+
 ![Screenshot 2024-10-12 at 01-50-13 Summary View – Django REST framework](https://github.com/user-attachments/assets/1800574a-057b-472a-a8bc-aebf0a9cb0f1)
 
 
@@ -71,4 +73,6 @@ Query Endpoint
         relevancy_min
         relevancy_max
     Description: Filters the dataset based on provided parameters.
-    Example Request:![Screenshot 2024-10-12 at 01-54-18 Query View – Django REST framework](https://github.com/user-attachments/assets/0661afb3-b4c3-424b-a7c1-46ec45c66db3)
+
+    
+Example Request:![Screenshot 2024-10-12 at 01-54-18 Query View – Django REST framework](https://github.com/user-attachments/assets/0661afb3-b4c3-424b-a7c1-46ec45c66db3)
