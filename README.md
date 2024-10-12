@@ -3,18 +3,22 @@ This project provides a RESTful API built with Django to analyze a patent datase
 
 **Prerequisites:**
     Python 3.8 or higher
-    Django 5.0 or higher
-    Django REST framework
-    Pandas
-    PostgreSQL 16
+
+   Django 5.0 or higher
+   
+   Django REST framework
+   
+   Pandas
+   
+   PostgreSQL 16
 
 You can install the necessary packages using pip:  pip install django djangorestframework pandas
 
 
 **Running the API Locally**
   1 Clone the repository:
-    git clone <repository-url>
-    cd <repository-name>
+    git clone Patent_data_API
+    cd Patent_data_API
   
   2 Set up the database:
       Make sure you have the CSV file with the patent data available in the project directory.
@@ -28,15 +32,16 @@ You can install the necessary packages using pip:  pip install django djangorest
   
   5 Run the server:
     python manage.py runserver
-    Access the API: Open your browser and navigate to [http://localhost:8000/.](http://0.0.0.0:8000/)
+   
+  6 Access the API: Open your browser and navigate to [http://localhost:8000/.](http://0.0.0.0:8000/)
 
 
 **Running the API with Docker-Compose**
   1 Ensure Docker and Docker-Compose are installed on your machine.
   
   2 Clone the repository (if you haven't already):
-      git clone <repository-url>
-      cd <repository-name>
+      git clone Patent_data_API
+      cd Patent_data_API
 
   3 Build and start the services:
     docker-compose up --build
