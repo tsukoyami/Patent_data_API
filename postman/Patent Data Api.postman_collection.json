@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "a8897915-00e6-4568-8710-526231bd5bb8",
+		"name": "Patent Data Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38963674"
+	},
+	"item": [
+		{
+			"name": "Summanry",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:8000/summary/",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"summary",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Query",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:8000/query/?date_published=2024-10-10&applicant_name=Adobe Inc&patent_number=20240338799&relevancy_min=3.0&relevancy_max=4.5",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"query",
+						""
+					],
+					"query": [
+						{
+							"key": "date_published",
+							"value": "2024-10-10",
+							"description": "Filter by date published."
+						},
+						{
+							"key": "applicant_name",
+							"value": "Adobe Inc",
+							"description": "Filter by applicant/assignee name."
+						},
+						{
+							"key": "patent_number",
+							"value": "20240338799",
+							"description": "Filter by patent number."
+						},
+						{
+							"key": "relevancy_min",
+							"value": "3.0",
+							"description": "Minimum relevancy score."
+						},
+						{
+							"key": "relevancy_max",
+							"value": "4.5",
+							"description": "Maximum relevancy score."
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
